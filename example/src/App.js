@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { KaanButton } from 'kaanui'
+import { KaanButton } from 'kaanui' // oluşturulan componenti import ettik
 import 'kaanui/dist/index.css'
 
-const App = () => { 
+const App = () => { // component ile button oluşturduk
   return <>
   <KaanButton text="Click" type="primary" />
   <br /> <br />
